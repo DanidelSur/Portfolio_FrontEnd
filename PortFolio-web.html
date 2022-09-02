@@ -6,11 +6,137 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio Web</title>
 		<link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="Estilos_css.css" />
 	</head>
-	<body>
-		<div class="container">
-			<h1 class="border border-success">Hola Mundo!</h1>
-			<p class="lead">Este sera el Portfolio web estatico</p>
-		</div>
+	<body class="bg-dark">
+		<nav class="bg-light">
+			<ul class="d-flex justify-content-between">
+				<li><p class="lead">Argentina Programa</p></li>
+				<li><button type="submit" class="btn btn-primary">Login</button></li>
+			</ul>
+		</nav>
+		<!-- Header -->
+		<header class="card text-center m-3">
+			<p class="m-0">Marcelo Daniel</p>
+			<h1 class="display-1 m-0">Chodilef</h1>
+		</header>
+
+		<!-- Acerca De -->
+		<section class="card mt-5">
+			<h2 class="card-header">Acerca De</h2>
+			<div class="row d-flex card-body">
+				<img src="/Imagenes/Perfil.jpeg" alt="" class="col-md-4" />
+				<p class="col-md-8">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis maiores deserunt hic neque
+					eaque doloribus illum deleniti temporibus corrupti! Amet eaque reprehenderit deleniti quidem excepturi,
+					temporibus assumenda aspernatur obcaecati? Doloremque, aspernatur impedit iure totam suscipit temporibus
+					quam in, praesentium quis commodi saepe velit tempore itaque debitis aliquid id? Amet ab pariatur
+					architecto. Minus a velit commodi cumque tempora aperiam!
+				</p>
+			</div>
+		</section>
+
+		<!-- Experiencias -->
+		<section class="card mt-3 container-fluid bg-success">
+			<h2 class="card-header">Laburos</h2>
+			<div class="card-body row">
+				<img src="/Imagenes/Work.jpg" class="col-md-4" alt="" />
+				<div class="col-md-8">
+					<h4>Nombre de Trabajo</h4>
+					<br />
+					<ul>
+						<li>
+							<b>Fecha entrada: </b>
+
+							<input type="date" name="" id="" />
+						</li>
+						<br />
+						<li>
+							<b>Fecha Salida: </b>
+							<input type="date" name="" id="" />
+						</li>
+						<br />
+						<li>
+							<b>Descripcion: </b>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nesciunt minima, voluptates
+								doloribus facere harum culpa beatae omnis quibusdam reprehenderit consectetur dicta. Similique
+								expedita facere accusantium, officia blanditiis minima laudantium.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Educacion -->
+		<section class="card mt-3 bg-info">
+			<h2 class="card-header">Educacion</h2>
+			<div class="card-body row container-fluid">
+				<img src="/Imagenes/Educacion.png" alt="" class="col-md-4" />
+				<div class="col-md-8">
+					<h4>Nombre de estudio</h4>
+					<p class="card-body">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias ut fugiat aut facilis illum
+						assumenda illo omnis facere expedita reprehenderit, necessitatibus, earum pariatur ab asperiores,
+						debitis officia provident explicabo inventore. Quos veritatis consequatur molestiae aperiam non quidem
+						repellendus officia, error suscipit possimus provident, placeat assumenda laboriosam, ad porro animi
+						iure odio soluta sit quia! Perspiciatis sit ea voluptate blanditiis iure?
+					</p>
+					<ul class="d-flex justify-content-between">
+						<li>
+							<b>Inicio: </b>
+							<input type="date" name="" id="" />
+						</li>
+
+						<li>
+							<b>Egreso: </b>
+							<input type="date" name="" id="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Habilidades -->
+		<section class="card mt-3">
+			<h2 class="card-header">Habilidades</h2>
+			<div class="card-body row container-fluid">
+				<img src="/Imagenes/Habilidades.png" class="col-md-4" alt="" />
+				<div class="col-md-8">
+					<h4>Habilidad X</h4>
+					<b>Descripcion:</b>
+					<p class="card-body">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus officiis obcaecati aut
+						consectetur quia praesentium, voluptatibus vitae eligendi, rem inventore dolore dolorem voluptate,
+						quaerat fuga nobis nostrum minima sed.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Proyectos -->
+		<section class="card mt-3 bg-primary">
+			<h2 class="card-header">Proyectos</h2>
+			<div class="card-body row container-fluid">
+				<img src="/Imagenes/Proyectos.png" class="col-md-4" alt="" />
+				<div class="col-md-8">
+					<h4>Nombre de Proyecto</h4>
+					<br />
+					<b>Descripcion: </b>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, iusto dolores? Molestias doloribus,
+						officia quae dolore eum praesentium eaque veritatis in. Vitae reprehenderit dolorum exercitationem
+						vero tempore quod vel quos!
+					</p>
+					<ul>
+						<li>
+							<a href="#" class="text-warning">www.proyectoX.com.ar</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<script src="/App.js"></script>
 	</body>
 </html>

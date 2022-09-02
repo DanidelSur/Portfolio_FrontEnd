@@ -1,0 +1,12 @@
+img {
+	max-width: 200px;
+	border-radius: 25px;
+}
+h4 {
+	text-align: center;
+}
+header {
+	background-image: url(/Imagenes/Banner.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
